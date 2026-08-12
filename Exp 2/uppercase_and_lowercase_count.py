@@ -14,4 +14,7 @@ for char in string:
 print("Uppercase",uppercase)
 print("Lowercase",lowercase)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 37dd3c0888632f277afb3853624d6ef7ca906fb8
