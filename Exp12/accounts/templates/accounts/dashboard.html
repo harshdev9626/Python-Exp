@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <style>
+    body{font-family:Arial,sans-serif;background:#f3f6fc;min-height:100vh;display:grid;place-items:center;margin:0;padding:20px}
+    main{background:white;padding:36px;border-radius:16px;max-width:520px;width:100%;box-shadow:0 10px 35px #14254a18}
+    h1{color:#2446a8}button{background:#2446a8;color:white;border:0;padding:12px 18px;border-radius:8px;cursor:pointer}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Login Successful!</h1>
+    <p>Welcome, <strong>{{ request.user.username }}</strong>.</p>
+    <p>You have accessed the protected dashboard.</p>
+    <form method="post" action="{% url 'logout' %}">
+      {% csrf_token %}
+      <button type="submit">Logout</button>
+    </form>
+  </main>
+</body>
+</html>

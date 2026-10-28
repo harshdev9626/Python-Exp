@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Logout</title></head>
+<body style="font-family:Arial,sans-serif;max-width:500px;margin:80px auto;padding:20px">
+  <h2>Confirm Logout</h2>
+  <p>Are you sure you want to log out?</p>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit">Yes, log out</button>
+    <a href="{% url 'dashboard' %}">Cancel</a>
+  </form>
+</body>
+</html>
