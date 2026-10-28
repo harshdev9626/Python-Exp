@@ -20,7 +20,7 @@ Python-Exp/
 ├── Exp 9/
 ├── Exp10/
 ├── Exp11/
-│
+├── Exp12/
 └── ISE-2-Roll_No_34/
 ```
 
@@ -94,7 +94,8 @@ The repository contains the following experiment folders:
 | 9 | Exp 9 |
 | 10 | Exp10 |
 | 11 | Exp11 |
-| 12 | ISE-2-Roll_No_34 |
+| 12 | Exp12 |
+| 13 | ISE-2-Roll_No_34 |
 
 Refer to the individual folders for the corresponding source code and practical files.
 
